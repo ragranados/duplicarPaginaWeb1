@@ -138,3 +138,13 @@ header h1 {
 .section-2 div p {
     margin: 20px 0;
 }
+
+.section-3{
+
+}
+
+.section-3 > div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+}
