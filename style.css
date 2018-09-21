@@ -19,6 +19,15 @@
     box-sizing: inherit;
 }
 
+h1,h2.h3.h4.h5.h6 {
+    font-family: "Poppins", sans-serif;
+    color: #222222;
+    line-height: 1.25em !important;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: 500;
+}
+
 body {
     background-color: #4c3e9a;
 }
@@ -57,7 +66,7 @@ span{
     color: #ffffff;
 }
 
-nav {
+.top-nav {
     height: 60px;
     width: 100vw;
     background-color: #000000;
@@ -151,7 +160,7 @@ header h1 {
 
 .section-3{
     background-color: white;
-    padding: 0 12%;
+    padding: 0 11%;
     height: 1070px;    
 }
 
@@ -245,4 +254,69 @@ header h1 {
 .section-4 input{
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid rgb(150, 148, 148);
+}
+
+.section-5 > div{
+    width: auto;
+    height: 410px;
+    background-color: #f9f9ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    padding: 4% 0;
+}
+
+.section-5 h3 {
+    font-size: 36px;
+    font-weight: 100;
+    color: #222222;
+} 
+
+.getstarted {
+    display: flex;
+    border-radius: 20px;
+    background-color: #ffffff;
+    width: 40%;
+    justify-content: center;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 50px;
+    margin: 55px 0;
+}
+
+.getstarted input {
+    border: none;
+    flex: 1;
+    padding: 10px;
+}
+
+footer {
+    background-color: #222222;
+    color: #ffffff;
+    height: 327px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 0 10%;
+}
+
+footer nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 35%;
+}
+
+.icons {
+    margin: 3.5%;
+}
+
+footer a {
+    color: #FFFFFF;
+    text-decoration: none;
 }
