@@ -7,9 +7,15 @@
 :root {
     margin : 0;
     padding: 0;
+    text-rendering: optimizeLegibility;
 }
 
 ::before, ::after {
+    color: #777777;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5em;
     box-sizing: inherit;
 }
 
@@ -17,8 +23,12 @@ body {
     background-color: #4c3e9a;
 }
 
+span{
+    color: #ffffff;
+}
+
 .white {
-    color: white;
+    color: #ffffff;
 }
 
 .button {
@@ -149,12 +159,44 @@ header h1 {
     padding: 12.5% 0;
 }
 
-.section-3 > div > div{
+.section-3 > div {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-gap: 30px; 
-    justify-content: center;
+    grid-auto-rows: minmax(380px,auto);
+    grid-gap: 30px;
     width: 100%;
+}
+
+
+.hidden {
+    visibility: hidden;
+}
+
+.bg-no-repeat:hover > div {
+    visibility: visible;
+    background:linear-gradient(90deg, rgba(51, 44, 156, 0.52) 0%,rgba(128, 0, 128, 0.63) 100%);;
+    width: 100%;
+    height: 100%;
+}
+
+.bg-no-repeat {
+    background-repeat: no-repeat;
+}
+
+#img1{
+    background-image: url(img/s1.jpg);
+}
+
+#img2{
+    background-image: url(img/s2.jpg);
+}
+
+#img3{
+    background-image: url(img/s3.jpg);
+}
+
+#img4{
+    background-image: url(img/s4.jpg);
 }
 
 .section-4 {
