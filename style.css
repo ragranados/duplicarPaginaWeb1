@@ -44,7 +44,7 @@ span{
     cursor: pointer;
     border-radius: 20px;
     border: 1px solid white;
-    padding: 10px 17px;
+    padding: 13px 23px;
     background: none;
     font-size: 15px;
     color: #ffffff;
@@ -55,7 +55,6 @@ span{
 }
 
 .paralax-bg {
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,7 +81,7 @@ span{
 }
 
 header .gradient-bg{
-    padding: 0 14%;
+    padding: 1.7% 14%;
 }
 
 
@@ -328,4 +327,53 @@ footer nav {
 footer a {
     color: #FFFFFF;
     text-decoration: none;
+}
+
+@media only screen and (max-width: 1000px){
+    header h1 {
+        font-size: 5em;
+    }
+
+}
+
+@media only screen and (max-width: 1382px) {
+    .section-1, .section-3 {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 763px) {
+    
+    .section-1, .section-3{
+        height: auto;
+    }
+
+    .section-1 > div{
+        flex-direction: column;
+    }
+
+    header h1 {
+        font-size: 5em;
+    }
+
+    .section-2 {
+        display: block;
+        padding: auto;
+    }
+
+    .section-2 > div {
+        width: 80%;
+        padding: 0 auto;
+    }
+
+    .section-3 > div{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+    .section-3 p {
+        margin-bottom: 300px;    
+    }
 }
