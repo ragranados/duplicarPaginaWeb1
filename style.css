@@ -202,18 +202,22 @@ header h1 {
 
 #img1{
     background-image: url(img/s1.jpg);
+    background-position: center;
 }
 
 #img2{
     background-image: url(img/s2.jpg);
+    background-position: center;
 }
 
 #img3{
     background-image: url(img/s3.jpg);
+    background-position: center;
 }
 
 #img4{
     background-image: url(img/s4.jpg);
+    background-position: center;
 }
 
 .section-4 {
@@ -333,7 +337,6 @@ footer a {
     header h1 {
         font-size: 5em;
     }
-
 }
 
 @media only screen and (max-width: 1382px) {
@@ -344,6 +347,11 @@ footer a {
 }
 
 @media only screen and (max-width: 763px) {
+    .getstarted {
+        flex-direction: column;
+        justify-content: space-between;
+        overflow: visible;
+    }
     
     .section-1, .section-3{
         height: auto;
@@ -376,4 +384,6 @@ footer a {
     .section-3 p {
         margin-bottom: 300px;    
     }
+
+    
 }
