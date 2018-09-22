@@ -81,6 +81,10 @@ span{
     height: 100%;
 }
 
+header .gradient-bg{
+    padding: 0 14%;
+}
+
 
 header h3, header h2, header h1 {
     color: #ffffff;
@@ -103,6 +107,11 @@ header h3, header h2, header h1 {
 .header-top {
     display: flex;
     justify-content: space-between;
+    width: 100%;
+}
+
+.header-top p {
+    color: #ffffff;
 }
 
 .header-tittle {
